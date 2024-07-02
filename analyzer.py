@@ -67,7 +67,7 @@ class Analyzer:
         plt.ylabel('Distance (Pixels)')
         #plot.show(nbr, cmap='RdYlGn', vmin=-1, vmax=1)
         plt.show()
-
+        return dnbr_values
 
 
     def visualize_image_difference(self, image1, image2):
@@ -133,3 +133,4 @@ class Analyzer:
         plt.colorbar(label='NBR Masked' if threshold is not None else 'NBR')
         plt.title('Normalized Burn Ratio (NBR)')
         plt.show()
+        return nbr
