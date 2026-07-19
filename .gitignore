@@ -3,3 +3,6 @@ __pycache__/
 *.zip
 *.idea/
 *.acmi
+# Ignore generated outputs and large tifs
+outputs/
+*.tif
