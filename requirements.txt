@@ -1,0 +1,5 @@
+# Minimal Python requirements for the project
+rasterio
+numpy
+pandas
+matplotlib
